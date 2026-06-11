@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { RootStackParamList } from '../../navigation/AppNavigator';
+import { RootStackParamList } from '../../navigation/appNavigator';
 import { MINING_MATE } from '../../data/courseConfig';
 import {
   BellIcon, HeartPulse, ChevronRight,
