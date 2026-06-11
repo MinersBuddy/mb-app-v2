@@ -15,7 +15,7 @@ jobs:
       
       - name: Create React Native App
         run: |
-          npx react-native@latest init MinersBuddy --template react-native-template-typescript
+          npx @react-native-community/cli init MinersBuddy --template react-native-template-typescript
           cp -r MinersBuddy/* .
           rm -rf MinersBuddy
           git config user.email "action@github.com"
