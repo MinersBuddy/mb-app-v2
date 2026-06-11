@@ -4,11 +4,11 @@ import { Platform, View, Text, StyleSheet, TouchableOpacity } from 'react-native
 import { BarChart2, BookMarked, Home, Trophy, Users } from 'lucide-react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { BottomTabBarProps } from '@react-navigation/bottom-tabs';
-import HomeScreen      from '../screens/Home/homescreen';
-import AnalyticsScreen from '../screens/Home/Analyticsscreen';
-import LeaderboardScreen from '../screens/Home/LeaderboardScreen';
-import PremiumScreen   from '../screens/Home/PremiumScreen';
-import CommunityScreen from '../screens/Home/Communityscreen';
+import HomeScreen      from '../screens/Home/homeScreen';
+import AnalyticsScreen from '../screens/Home/analyticsScreen';
+import LeaderboardScreen from '../screens/Home/leaderboardScreen';
+import PremiumScreen   from '../screens/Home/premiumScreen';
+import CommunityScreen from '../screens/Home/communityScreen';
 
 const COLORS = {
   navy: '#0F1923',
