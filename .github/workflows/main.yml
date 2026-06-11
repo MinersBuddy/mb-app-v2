@@ -1,0 +1,25 @@
+name: Init Project
+on:
+  workflow_dispatch:
+jobs:
+  init:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+      
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      
+      - name: Create React Native App
+        run: |
+          npx react-native@latest init MinersBuddy --template react-native-template-typescript
+          cp -r MinersBuddy/* .
+          rm -rf MinersBuddy
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add .
+          git commit -m "Fresh React Native project"
+          git push
