@@ -24,7 +24,7 @@ import {
 } from 'lucide-react-native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RouteProp } from '@react-navigation/native';
-import { RootStackParamList } from '../navigation/AppNavigator';
+import { RootStackParamList } from '../navigation/appNavigator';
 
 const { width: SW } = Dimensions.get('window');
 
