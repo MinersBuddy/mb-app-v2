@@ -1,5 +1,5 @@
 import rawData from './firstaid.json';
-import { QuizQuestion } from '../components/QuizScreen';
+import { QuizQuestion } from '../components/quizScreen';
 
 console.log('rawData length:', rawData.length); // ← ye add karo
 
