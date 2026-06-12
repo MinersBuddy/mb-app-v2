@@ -10,10 +10,10 @@ import {
 } from 'lucide-react-native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RouteProp } from '@react-navigation/native';
-import { RootStackParamList } from '../Navigation/AppNavigator';
+import { RootStackParamList } from '../Navigation/appNavigator';
 import { CourseConfig, Chapter } from '../data/courseConfig';
 import { MINING_MATE } from '../data/courseConfig';
-import { QuizQuestion } from './QuizScreen';
+import { QuizQuestion } from './quizScreen';
 import { firstAidQuestions } from '../data/firstAidData';
 
 
