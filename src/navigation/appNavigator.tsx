@@ -8,7 +8,7 @@ import {
 import OnboardingScreen   from '../screens/auth/OnboardingScreen';
 import FirstAidCenter     from '../screens/Home/firstAidCenter';
 import ChapterListScreen  from '../components/chapterListScreen';
-import QuizScreen, { QuizQuestion } from '../components/QuizScreen';
+import QuizScreen, { QuizQuestion } from '../components/quizScreen';
 import MainTabNavigator   from './mainTabNavigator';
 import AnnouncementScreen from '../screens/Home/announcementScreen';
 import { CourseConfig, Chapter } from '../data/courseConfig';
