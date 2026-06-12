@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { RootStackParamList } from '../../navigation/AppNavigator';
+import { RootStackParamList } from '../../navigation/appNavigator';
 
 
 // ─────────────────────────────────────────────────────────────
